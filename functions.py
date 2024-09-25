@@ -10,6 +10,11 @@ def my_func():
     time.sleep(1)
     del a
     time.sleep(1)
+    a = 2
+    for i in range(30):
+        a = a*a
+    time.sleep(1)
+    del a
     return
 
 
